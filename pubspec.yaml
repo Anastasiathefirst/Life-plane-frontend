@@ -1,0 +1,36 @@
+name: life_plane_go
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.0.0
+  shared_preferences: ^2.2.2
+  video_player: ^2.7.0
+  cupertino_icons: ^1.0.8
+  vibration: ^2.0.0
+  dropdown_button2: ^2.3.9
+  image_picker: ^1.0.7
+  glass_kit: ^2.0.0
+  http: ^0.13.0 # 👉 добавлено для запросов к бэкенду
+  flutter_localizations: # 👉 для поддержки локализаций
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true # 👉 включить генерацию кода из .arb файлов
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/videos/
